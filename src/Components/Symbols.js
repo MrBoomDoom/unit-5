@@ -26,4 +26,4 @@ const Symbols = () => {
     );
  };
 
- export default Symbols;
+ export default Symbols

@@ -4,7 +4,6 @@ import {selectDisplay} from "../redux/slices/displayCountrySlice"
 
 const Overview = () => {
     let currentDisplay = useSelector(selectDisplay)
-    console.log(currentDisplay)
     return (
         <div className="stack">
             <h1>{currentDisplay.name.official}</h1>
